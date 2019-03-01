@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/mail"
         android:layout_alignParentBottom="true"
-        android:text="xwyz@142-857.com"
+        android:text=""
         android:textColor="#FFF"
         android:textSize="14sp"/>
     <TextView

@@ -19,7 +19,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            android:text="一职论坛"
+            android:text="论坛"
             android:gravity="center"/>
 
         <TextView

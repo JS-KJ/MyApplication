@@ -17,7 +17,7 @@ public class Main4Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
         Toolbar toolbar =(Toolbar)findViewById(R.id.toolbar);
-        toolbar.setTitle("宣威一职");
+        toolbar.setTitle("");
         setSupportActionBar(toolbar);
         ActionBar actionBar=getSupportActionBar();
         if(actionBar !=null){
@@ -32,7 +32,7 @@ public class Main4Activity extends AppCompatActivity {
                     public void onClick(View v){
                         Intent textIntent = new Intent(Intent.ACTION_SEND);
                         textIntent.setType("text/plain");
-                        textIntent.putExtra(Intent.EXTRA_TEXT, "(｡･∀･)ﾉﾞ嗨。宣威一职论坛：http://47.104.189.188/forum.php?forumlist=1&mobile=2");
+                        textIntent.putExtra(Intent.EXTRA_TEXT, "");
                         startActivity(Intent.createChooser(textIntent, "分享"));
                     }
                 })
